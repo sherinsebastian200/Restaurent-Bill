@@ -104,6 +104,15 @@ public class Main {
                     long number1=sc.nextLong();
                     c.tea(a);
                     break;
+                case 3:
+                    System.out.println("enter the count");
+                    int b =sc.nextInt();
+                    System.out.println("enter name");
+                    String name2=sc.next();
+                    System.out.println("enter phone number");
+                    long number2=sc.nextLong();
+                    c.tea(b);
+                    break;
 
 
 
