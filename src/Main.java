@@ -86,7 +86,7 @@ public class Main {
             switch (n) {
 
                 case 1:
-                    System.out.println("Enter the quantities");
+                    //System.out.println("Enter the quantities");
                     System.out.println("enter the count");
                     int q=sc.nextInt();
                     System.out.println("enter name");
@@ -95,6 +95,17 @@ public class Main {
                     long number=sc.nextLong();
                     c.tea(q);
                     break;
+                case 2:
+                    System.out.println("enter the count");
+                    int a =sc.nextInt();
+                    System.out.println("enter name");
+                    String name1=sc.next();
+                    System.out.println("enter phone number");
+                    long number1=sc.nextLong();
+                    c.tea(a);
+                    break;
+
+
 
 
 
